@@ -1,0 +1,117 @@
+﻿/* Universalselektor */
+	* {
+		font-family: Arial, Verdana, sans-serif; 
+		text-align: justify;
+		font-size:1rem;
+		padding: 0;
+		margin: 0;
+		border-radius: 0.5rem;
+	}
+
+/* Allgemeine Einstellungen, gelten für alle Elemente mit diesem Namen*/
+	p { 
+		font-size:1rem;
+		color:azure;
+	}
+
+	h1 { 
+		font-size: 1.8rem; 
+		font-style: normal;
+		align-self:flex-start;
+		padding: 1rem;
+	}
+
+	h2 { 
+		font-size: 1.4rem; 
+		font-style: italic;
+	}
+
+	h3 { 
+		font-size: 1.2rem; 
+	}
+	h1, h2, h3 {
+		text-align: left;
+		color:azure;		
+	}
+	ul {
+	  list-style-type: none;
+	  margin: 0;
+	  padding: 0;
+	  overflow: hidden;
+	  background-color: #333;
+	}
+	li { 
+		list-style-type: none;
+		color: white;
+		float: left;
+		font-size: 1.2rem;
+	}
+	li a {
+		display: block;
+		color: white;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+	  }
+	li a:hover {
+		background-color: #c5cbe3;
+    }
+	body {
+		background-color:#4f4f4f;
+	}
+
+	main {
+		min-height: 23rem;
+		display:block;
+		text-align: center;
+	}
+
+	button {
+		font-size: 1.3rem;
+		width: 15rem;
+		height: 7rem;
+		box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.6);
+		text-align: center;
+	}
+
+/************************************************************************/
+/* Nachfahrenselektor */
+	main img{
+		width: 15rem;
+		height: 15rem;
+	}
+
+	#main_content p{
+		margin-top: 1rem; 
+		margin-left:2rem;
+		display:table;
+		border: 3px solid;
+		border-color: #555555;
+		padding: 1em;
+	}
+
+
+#text {
+	min-width: 300px;
+	overflow: hidden;
+	padding: 1rem;
+}
+
+#pictures {
+	width: 500px;
+	float:left;
+	padding: 1rem;
+}
+
+#content {
+	padding: 1rem;
+}
+
+#source {
+	padding: 1rem;
+}
+
+#location {
+	padding: 2rem;
+}
+
