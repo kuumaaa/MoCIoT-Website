@@ -118,6 +118,6 @@
 /*mobile phones*/
 @media only screen and (max-width: 768px) {
 	body {
-		background-color:#4f4f4f;
+		background-color:red;
 	}
 }
