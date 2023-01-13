@@ -19,6 +19,8 @@
 		font-style: normal;
 		align-self:flex-start;
 		padding: 1rem;
+	}	body {
+		background-color:#4f4f4f;
 	}
 
 	h2 { 
@@ -38,6 +40,7 @@
 	  margin: 0;
 	  padding: 0;
 	  overflow: hidden;
+	  position: static;
 	  background-color: #333;
 	}
 	li { 
@@ -98,7 +101,7 @@
 }
 
 #pictures {
-	width: 500px;
+	width: 50%;
 	float:left;
 	padding: 1rem;
 }
@@ -116,8 +119,31 @@
 }
 
 /*mobile phones*/
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1150px) {
 	body {
 		background-color:red;
+	}
+
+	.bar {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		float: right;
+		background-color: #333;
+		overflow: hidden;
+		position: fixed;
+		bottom: 0;
+		width: 100%;
+	}
+
+	p { 
+		font-size:3rem;
+		color:azure;
+	}	
+	
+	#pictures {
+		width: 90%;
+		float:left;
+		padding: 1rem;
 	}
 }
