@@ -120,10 +120,6 @@
 
 /*mobile phones*/
 @media only screen and (max-width: 1150px) {
-	body {
-		background-color:red;
-	}
-
 	.bar {
 		list-style-type: none;
 		margin: 0;
